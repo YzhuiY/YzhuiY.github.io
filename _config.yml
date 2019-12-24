@@ -1,8 +1,9 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+title: '鱼鱼是大哥'
+description: '平安夜虽然要上线 但是有我陪着你'
+keywords: 'pinganye zhui blog'
+url: 'http://yzhuiy.xyz' # your host
+baseurl: '/blog'
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -14,21 +15,21 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'zhui'
+NickName: 'zhui'
+webtitle: '鱼鱼我爱你'
+bio: '一个由张辉撰写 属于鱼鱼的博客'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: '一个属于鱼鱼的辉辉'
+portraits: '/blog/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
+  mail: '327502275@qq.com'
   weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
+  qq: 'http://wpa.qq.com/msgrd?v=3&uin=327502275&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'YzhuiY'
   Codepen: ''
   weibo: ''
   instagram: ''
@@ -36,7 +37,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   Dribbble: ''
   Facebook: ''
   Google: ''
-  zhihu: ''
+  zhihu: 'YzhuiY'
   juejin: ''
   twitch: ''
 
@@ -46,7 +47,7 @@ paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2019
 
 # Markdown
 markdown: kramdown
@@ -70,8 +71,8 @@ livere: true
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
+Gitment_owner: 'YzhuiY'  # github用户名
+Gitment_repo: 'YzhuiY.github.io'  # github博客存放的仓库名
 client_id: ''  # 注册 OAuth Application 后获得的 client_id
 client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
@@ -80,7 +81,7 @@ social-share: true
 social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
-baidu: true
+baidu: false
 baidu-url: ''
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
