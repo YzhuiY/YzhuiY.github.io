@@ -2,8 +2,7 @@
 title: '鱼鱼是大哥'
 description: '平安夜虽然要上线 但是有我陪着你'
 keywords: 'pinganye zhui blog'
-url: 'http://yzhuiy.xyz' # your host
-baseurl: '/blog'
+url: 'http://YzhuiY.github.io/' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
